@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Examinations{% endblock %}
+
+
+{% block content %}
+
+{% if user.is_authenticated %}
+
+Please find your blood tests below.<br/><br/>
+
+{% endif %}
+
+{% endblock %}
